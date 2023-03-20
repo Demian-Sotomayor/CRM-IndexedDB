@@ -6,7 +6,8 @@
         crearDB();
     });
 
-    // Crea la base de datos de IndexDB
+/* _______________________ Crea la base de datos de IndexDB _______________________ */
+
     function crearDB() {
         const crearDB = window.indexedDB.open('crm', 1);
 
@@ -31,7 +32,5 @@
 
             console.log('DB lista y creada')
         }
-
-
     }
 })();
